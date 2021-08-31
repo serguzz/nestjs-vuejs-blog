@@ -4,7 +4,8 @@ import * as mongoose from 'mongoose';
 @Injectable()
 export class ValidateObjectId implements PipeTransform<string> {
     async transform(value: string, metadata: ArgumentMetadata) {
-        const isValid = mongoose.Types.ObjectId.isValid(value);
+        // Я закоментировал строку ниже!!
+        const isValid = true;//mongoose.Types.ObjectId.isValid(value);
         if (!isValid) throw new BadRequestException('Invalid ID!');
         return value;
     }
