@@ -2,7 +2,7 @@
   "name": "blog-backend",
   "version": "0.0.0",
   "description": "Backend API for a blog built with Nest.jss",
-  "author": "Olususi Oluyemi",
+  "author": "Sergiy Brovchenko",
   "license": "MIT",
   "scripts": {
     "build": "tsc",

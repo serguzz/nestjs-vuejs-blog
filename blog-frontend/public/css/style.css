@@ -2,3 +2,18 @@
     width: 500px;
     margin: 0 auto;
 }
+
+.main-container {
+
+    width: 80%;
+    margin: 5px auto;
+}
+
+.content-container {
+    margin-top: 2px;
+    padding-top: 20px;
+}
+
+.blogpost-card {
+    background: rgb(77, 200, 0, 0.5);
+}
