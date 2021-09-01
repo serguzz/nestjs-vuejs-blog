@@ -16,6 +16,10 @@
                   <textarea id="body" cols="30" rows="5" v-model="body" class="form-control"></textarea>
               </div>
               <div class="form-group col-md-12">
+                  <label for="img"> Image </label>
+                  <input type="text" id="img" v-model="img" name="img" class="form-control">
+              </div>
+              <div class="form-group col-md-12">
                   <label for="author"> Author </label>
                   <input type="text" id="author" v-model="author" name="author" class="form-control">
               </div>
@@ -38,7 +42,8 @@ export default {
       title: "",
       description: "",
       body: "",
-      author: "Olususi Oluyemi",
+      img: "Upload Image here",
+      author: "Sergiy Brovchenko",
       date_posted: ""
     };
   },
@@ -51,6 +56,7 @@ export default {
         title: this.title,
         description: this.description,
         body: this.body,
+        img: this.img,
         author: this.author,
         date_posted: this.date_posted
       };

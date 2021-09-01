@@ -21,6 +21,10 @@
                 <textarea id="body" cols="30" rows="5" v-model="post.body" class="form-control"></textarea>
             </div>
             <div class="form-group col-md-12">
+                <label for="img"> Image </label>
+                <input type="text" id="img" v-model="post.img" name="img" class="form-control">
+            </div>
+            <div class="form-group col-md-12">
                 <label for="author"> Author </label>
                 <input type="text" id="author" v-model="post.author" name="author" class="form-control">
             </div>
@@ -54,6 +58,7 @@ export default {
         title: this.post.title,
         description: this.post.description,
         body: this.post.body,
+        img: this.post.img,
         author: this.post.author,
         date_posted: this.post.date_posted
       };

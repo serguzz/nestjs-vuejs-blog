@@ -20,6 +20,7 @@
                     
                   </div>
                   <h2 class="card-img-top">{{ post.title }}</h2>
+                  <p> {{ post.img }} </p>
                   <p class="card-text">{{ post.body }}</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group" style="margin-bottom: 20px;">

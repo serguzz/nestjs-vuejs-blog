@@ -3,13 +3,21 @@
         <div class="col-sm-12">
       <h4 style="margin-top: 30px;"><small><button class="btn btn-success" v-on:click="navigate()"> View All Posts </button></small></h4>
       <hr>
-      <h2>{{ post.title }}</h2>
-      <h5><span class="glyphicon glyphicon-time"></span> Post by {{post.author}}, {{post.date_posted}}.</h5>
+      <img src="http://localhost:3000/images/blog/tenerife.jpg" >
+      <h2>{{ post.title }} </h2>
+      <h5><span class="glyphicon glyphicon-time"></span>  Post by {{post.author}}, {{post.date_posted}}.</h5>
       <p> {{ post.body }} </p>
+      <p> {{ post.img }} </p>
   
     </div>
     </div>
 </template>
+
+<style>
+  img {
+    max-width: 100%;
+  }
+</style>
 
 <script>
 import { server } from "../../utils/helper";
