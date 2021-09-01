@@ -14,7 +14,12 @@
            <div class="col-md-4" v-for="post in posts" :key="post._id">
               <div class="blogpost-card card mb-4 shadow-sm">
                 <div class="card-body">
-                   <h2 class="card-img-top">{{ post.title }}</h2>
+                  <div class=blogpost-card-image>
+                    <img src="http://localhost:3000/images/blog/tenerife.jpg" >
+                    
+                    
+                  </div>
+                  <h2 class="card-img-top">{{ post.title }}</h2>
                   <p class="card-text">{{ post.body }}</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group" style="margin-bottom: 20px;">
@@ -35,6 +40,15 @@
       </div>
     </div>
 </template>
+
+<style>
+  .blogpost-card-image img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+</style>
 
 <script>
 // @ is an alias to /src
