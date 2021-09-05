@@ -1,9 +1,19 @@
 {
   "name": "blog-backend",
-  "version": "0.0.0",
-  "description": "Backend API for a blog built with Nest.jss",
-  "author": "Sergiy Brovchenko",
+  "version": "1.0.0",
+  "description": "Backend API for a blog built with Nest.js using MongoDB",
+  "author": "Sergiy Brovchenko <serguz@ukr.net> (http://travelearth.pp.ua)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/serguzz/whatever.git"
+  },
+  "keywords": [
+    "backend",
+    "api",
+    "blog",
+    "mongoDB"
+  ],
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",

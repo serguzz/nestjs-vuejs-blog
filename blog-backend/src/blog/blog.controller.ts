@@ -35,7 +35,6 @@ export class BlogController {
         })
     }
 
-
     // Edit a particular post using ID
     @Put('/edit')
     async editPost(
