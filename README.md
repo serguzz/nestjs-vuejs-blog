@@ -10,12 +10,12 @@ This prototype is divided into two separate sections. Namely the Backend ( Built
 To easily set up the application, clone this repository which contains directory for both sections of the project ( i.e `blog-backend` and `blog-frontend`)
 
 ```bash
-git clone https://github.com/yemiwebby/nest-vue-project.git
+git clone https://github.com/serguzz/nestjs-vuejs-blog.git
 ```
 
 ## Change directory into the newly cloned project
 ```bash
-cd nest-vue-project
+cd nestjs-vuejs-blog
 ```
 
 ## Backend
